@@ -31,3 +31,31 @@ yarn-error.log*
 # Python files
 *.pyc
 __pycache__/
+
+# Logs, temporary and precompiled files
+*.log
+*.log.*
+*.tmp
+*.swp
+*~
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+.build/
+dist/
+.env
+.env.*
+
+# Editor and tooling caches
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+
+# OctoFit venv (nested)
+octofit-tracker/backend/venv/
